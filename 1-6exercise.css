@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  margin: 0 auto;
+  height: 800px;
+  background-color: orange;
+}
+
+.main-box1 {
+  width: 100%;
+  height: 200px;
+  background-image: url(img/box1.jpg);
+  background-position: left center;
+  background-size: cover;
+}
+
+.main-box2 {
+  width: 100%;
+  height: 200px;
+  background-image: url(img/box2.jpg);
+  background-position: right center;
+  background-size: cover;
+}
+
+.main-box3 {
+  width: 100%;
+  height: 200px;
+  background-image: url(img/box3.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.main-box4 {
+  width: 100%;
+  height: 200px;
+  background-image: url(img/box4.jpg);
+  background-position: center;
+  background-size: cover;
+}

@@ -21,6 +21,7 @@ main {
 .content {
   width: 300px;
   background-color: #eeeeee;
+  display: inline-block;
 }
 
 .content:nth-child(2) {
@@ -31,11 +32,15 @@ main {
   background-color: #ff9a4b;
   color: #ffffff;
   position: absolute;
+  text-align: left;
+  height: 25px;
+  line-height: 25px;
 }
 
 .image {
   height: 150px;
-  background-size: contain;
+  background-size: cover;
+  background-position: bottom center;
   margin: 10px 10px 0 10px;
 }
 

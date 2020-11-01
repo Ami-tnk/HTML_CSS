@@ -22,6 +22,7 @@ main {
   width: 300px;
   background-color: #eeeeee;
   display: inline-block;
+  overflow: hidden; /* 子要素であるimageの余白が親要素を突き抜けることを阻止する */
 }
 
 .content:nth-child(2) {
